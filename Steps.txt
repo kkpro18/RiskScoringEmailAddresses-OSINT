@@ -1,0 +1,15 @@
+To risk score email address:
+
+Starting with base input: Email ID, Name
+
+haveibeenpwned.com
+^ returns pwned status, no. data breaches, no. paste, where it has been pwned
+^ paid api
+
+https://talosintelligence.com/reputation_center/lookup?search=gmail.com
+^ returns webreputation trusted or not, BlockList STATUS,
+
+https://who.is/whois/hotmail.com
+^ returns registered date domain, expires, Name
+
+
