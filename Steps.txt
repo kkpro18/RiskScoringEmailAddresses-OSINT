@@ -1,3 +1,9 @@
+Why Risk Score Email:
+
+https://www.experian.co.uk/identity-and-fraud/email-risk-scoring#:~:text=Email%20Risk%20Scoring%20supports%20account,action%20for%20a%20customer%20application.
+
+Experian uses it to validate people, prevent bots e.t.c
+
 To risk score email address:
 
 Starting with base input: Email ID, Name
