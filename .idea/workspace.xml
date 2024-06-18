@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a83d547-e8ff-46cd-ae62-a77ff16cc460" name="Changes" comment="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c">
+      <change afterPath="$PROJECT_DIR$/GenerateSyntheticDataSet_CleanData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GenerateSyntheticDataSet_UnProcessedData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/RiskScoringEmailAddresses-OSINT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RiskScoringEmailAddresses-OSINT.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Steps.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Steps.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -32,7 +36,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kkpro18/RiskScoringEmailAddresses-OSINT.git&quot;,
-    &quot;accountId&quot;: &quot;c7b26cdd-15b8-42f6-ab39-e8f40910c06b&quot;
+    &quot;accountId&quot;: &quot;861b8e8f-1eb4-41b1-9390-185cd60fe68a&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -46,8 +50,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.GenerateSyntheticDataSet.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kiris/Documents/GitHub/RiskScoringEmailAddresses-OSINT&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -56,11 +62,16 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kiris\Documents\GitHub\RiskScoringEmailAddresses-OSINT" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
-        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
+        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -74,6 +85,8 @@
       <updated>1717428883144</updated>
       <workItem from="1717428887856" duration="5145000" />
       <workItem from="1717435206997" duration="60000" />
+      <workItem from="1718751060669" duration="502000" />
+      <workItem from="1718751981128" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c">
       <option name="closed" value="true" />
@@ -92,5 +105,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c" />
     <option name="LAST_COMMIT_MESSAGE" value="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RiskScoringEmailAddresses_OSINT$GenerateSyntheticDataSet.coverage" NAME="GenerateSyntheticDataSet Coverage Results" MODIFIED="1718751246540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
