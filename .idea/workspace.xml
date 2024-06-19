@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9a83d547-e8ff-46cd-ae62-a77ff16cc460" name="Changes" comment="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c">
-      <change afterPath="$PROJECT_DIR$/GenerateSyntheticDataSet_CleanData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GenerateSyntheticDataSet_UnProcessedData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/RiskScoringEmailAddresses-OSINT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RiskScoringEmailAddresses-OSINT.iml" afterDir="false" />
+    <list default="true" id="9a83d547-e8ff-46cd-ae62-a77ff16cc460" name="Changes" comment="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateSyntheticDataSet_CleanData.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generation_scripts/GenerateSyntheticDataSet_CleanData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenerateSyntheticDataSet_UnProcessedData.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generation_scripts/GenerateSyntheticDataSet_UnProcessedData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RiskScoringEmailAddresses.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RiskScoringEmailAddresses.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +47,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.GenerateSyntheticDataSet.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Kiris/Documents/GitHub/RiskScoringEmailAddresses-OSINT&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.GenerateSyntheticDataSet.executor": "Run",
+    "Python.GenerateSyntheticDataSet_CleanData.executor": "Run",
+    "Python.GenerateSyntheticDataSet_UnProcessedData.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Kiris/Documents/GitHub/RiskScoringEmailAddresses-OSINT",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Kiris\Documents\GitHub\RiskScoringEmailAddresses-OSINT" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kiris\Documents\GitHub\RiskScoringEmailAddresses-OSINT\data" />
+      <recent name="C:\Users\Kiris\Documents\GitHub\RiskScoringEmailAddresses-OSINT\data_generation_scripts" />
+      <recent name="C:\Users\Kiris\Documents\GitHub\RiskScoringEmailAddresses-OSINT\" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -86,7 +92,8 @@
       <workItem from="1717428887856" duration="5145000" />
       <workItem from="1717435206997" duration="60000" />
       <workItem from="1718751060669" duration="502000" />
-      <workItem from="1718751981128" duration="59000" />
+      <workItem from="1718751981128" duration="278000" />
+      <workItem from="1718834504405" duration="1877000" />
     </task>
     <task id="LOCAL-00001" summary="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c">
       <option name="closed" value="true" />
@@ -96,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717434878633</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server.">
+      <option name="closed" value="true" />
+      <created>1718752222573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1718752222573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,9 +119,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c" />
-    <option name="LAST_COMMIT_MESSAGE" value="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c" />
+    <MESSAGE value="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server." />
+    <option name="LAST_COMMIT_MESSAGE" value="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/RiskScoringEmailAddresses_OSINT$GenerateSyntheticDataSet_UnProcessedData.coverage" NAME="GenerateSyntheticDataSet_UnProcessedData Coverage Results" MODIFIED="1718834560947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/RiskScoringEmailAddresses_OSINT$GenerateSyntheticDataSet_CleanData.coverage" NAME="GenerateSyntheticDataSet_CleanData Coverage Results" MODIFIED="1718836486311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data_generation_scripts" />
     <SUITE FILE_PATH="coverage/RiskScoringEmailAddresses_OSINT$GenerateSyntheticDataSet.coverage" NAME="GenerateSyntheticDataSet Coverage Results" MODIFIED="1718751246540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
