@@ -26,6 +26,34 @@ def simulate_data(num_records):
         data_breach_involvement = random.choice([0, 1])
         email_quality_score = random.randint(0, 100)
 
+    # trends
+        # validity 1 = good, 0 = bad
+        # holder name = 1 = good, 0 = bad
+        # domain type:  corporate, educational = good, free = ok, unknown = ok/bad
+        # domain quality = high = good score 66-95, medium = 41-65, low = < 40
+        # social media presence, 0 = ok if educational/corporate, 1 = ok if free/unknown/corporate/educational
+        # data breach involvement, 1 = low score less than 60, 0 = good for 50+
+        # email quality = 70 - 100 = good, 55 - 69 = ok, 40 - 54 = not bad, less than 40 = bad avoid
+
+        # create filter for domain quality...
+
+
+
+
+        # decides email quality score
+        if validity == 1 and holder_name_match == 1 and data_breach_involvement == 0 and domain_quality in ['high', 'medium']:
+            email_quality_score = random.randint(70, 100)
+        elif validity and domain_quality and data_breach_involvement:
+            email_quality_score = random.randint(55, 69)
+        elif validity and holder_name_match:
+            email_quality_score = random.randint(40, 54)
+        else:
+            email_quality_score = random.randint(0, 40)
+
+
+
+
+
         data.append([email, validity, holder_name_match, domain, domain_type, domain_quality,
                      social_media_presence, data_breach_involvement, email_quality_score])
 

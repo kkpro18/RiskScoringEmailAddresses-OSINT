@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a83d547-e8ff-46cd-ae62-a77ff16cc460" name="Changes" comment="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenerateSyntheticDataSet_CleanData.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generation_scripts/GenerateSyntheticDataSet_CleanData.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenerateSyntheticDataSet_UnProcessedData.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generation_scripts/GenerateSyntheticDataSet_UnProcessedData.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RiskScoringEmailAddresses.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/RiskScoringEmailAddresses.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_generation_scripts/GenerateSyntheticDataSet_CleanData.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generation_scripts/GenerateSyntheticDataSet_CleanData.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -35,7 +35,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kkpro18/RiskScoringEmailAddresses-OSINT.git&quot;,
-    &quot;accountId&quot;: &quot;861b8e8f-1eb4-41b1-9390-185cd60fe68a&quot;
+    &quot;accountId&quot;: &quot;5fb7518a-3d98-4d22-8dfe-dbb9dd0e044f&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -60,6 +60,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,8 +77,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17890.14" />
-        <option value="bundled-python-sdk-5b207ade9991-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17890.14" />
+        <option value="bundled-python-sdk-afb2d50b81ac-2ff200790375-com.jetbrains.pycharm.ds.sharedIndexes.bundled-DS-241.18034.23" />
       </set>
     </attachedChunks>
   </component>
@@ -121,6 +121,17 @@
     <MESSAGE value="Layed Foundations&#10;&#10;Started Scraping Data&#10;Need further formatting to get domain history e.t.c" />
     <MESSAGE value="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server." />
     <option name="LAST_COMMIT_MESSAGE" value="Two Scripts to Create Synthetic Dataset as No actual dataset available, and data not collectable due to the large no. requests made to a server." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RiskScoringEmailAddresses_OSINT$GenerateSyntheticDataSet_UnProcessedData.coverage" NAME="GenerateSyntheticDataSet_UnProcessedData Coverage Results" MODIFIED="1718834560947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
